@@ -9,4 +9,238 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: #717171;
+  width: 100vw;
+  justify-content: center;
 }
+.main-box{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.box1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation: animationOne 6s ease-in-out  infinite;
+  border-radius: 10px;
+}
+.box2{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  animation: animationTwo 6s ease-in-out infinite;
+  background-color: green;
+  border-radius: 10px;
+}
+.box3{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  animation: animationThree 6s ease-in-out infinite;
+  background-color: yellow;
+  border-radius: 10px;
+}
+.box4{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  animation: animationFour 6s ease-in-out infinite;
+  background-color: blue;
+  border-radius: 10px;
+}
+@keyframes animationOne{
+  0%{
+    transform: translate(0px,0px);
+    background-color: red;
+  }
+  11.1%{
+    transform: translate(0px,0px);
+    background-color: red;
+  }
+  22.2%{
+    transform: translate(100px,0px);
+    background-color: green;
+   
+  }
+  33.3%{
+    transform: translate(100px,0px);
+    background-color: green;
+  }
+  44.4%{
+    transform: translate(100px,100px);
+    background-color: yellow;
+  }
+  55.5%{
+    transform: translate(100px,100px);
+    background-color: yellow;
+  }
+  66.6%{
+    transform: translate(0px,100px);
+    background-color: blue;
+  }
+  77.7%{
+    transform: translate(0px,100px);
+    background-color: blue;
+  }
+  88.8%{
+    transform: translate(0px,0px);
+    background-color: red;
+  }
+  100%{
+    transform: translate(0px,0px);
+    background-color: red;
+  }
+}
+@keyframes animationTwo{
+  0%{
+    transform: translate(0px,0px);
+    background-color: green;
+  }
+  11.1%{
+    transform: translate(0px,0px);
+    background-color: green;
+  }
+  22.2%{
+    transform: translate(0px,100px);
+    background-color: yellow;
+   
+  }
+  33.3%{
+    transform: translate(0px,100px);
+    background-color: yellow;
+  }
+  44.4%{
+    transform: translate(-100px,100px);
+    background-color: blue;
+  }
+  55.5%{
+    transform: translate(-100px,100px);
+    background-color: blue;
+  }
+  66.6%{
+    transform: translate(-100px,0px);
+    background-color: red;
+  }
+  77.7%{
+    transform: translate(-100px,0px);
+    background-color: red;
+  }
+  88.8%{
+    transform: translate(0px,0px);
+    background-color: green;
+  }
+  100%{
+    transform: translate(0px,0px);
+    background-color: green;
+  }
+}
+@keyframes animationThree{
+  0%{
+    transform: translate(0px,0px);
+    background-color: yellow;
+  }
+  11.1%{
+    transform: translate(0px,0px);
+    background-color: yellow;
+  }
+  22.2%{
+    transform: translate(-100px,0px);
+    background-color: blue;
+   
+  }
+  33.3%{
+    transform: translate(-100px,0px);
+    background-color: blue;
+  }
+  44.4%{
+    transform: translate(-100px,-100px);
+    background-color: red;
+  }
+  55.5%{
+    transform: translate(-100px,-100px);
+    background-color: red;
+  }
+  66.6%{
+    transform: translate(0px,-100px);
+    background-color: green;
+  }
+  77.7%{
+    transform: translate(0px,-100px);
+    background-color: green;
+  }
+  88.8%{
+    transform: translate(0px,0px);
+    background-color: yellow;
+  }
+  100%{
+    transform: translate(0px,0px);
+    background-color: yellow;
+  }
+}
+@keyframes animationFour{
+  0%{
+    transform: translate(0px,0px);
+    background-color: blue;
+  }
+  11.1%{
+    transform: translate(0px,0px);
+    background-color: blue;
+  }
+  22.2%{
+    transform: translate(0px,-100px);
+    background-color: red;
+   
+  }
+  33.3%{
+    transform: translate(0px,-100px);
+    background-color: red;
+  }
+  44.4%{
+    transform: translate(100px,-100px);
+    background-color: green;
+  }
+  55.5%{
+    transform: translate(100px,-100px);
+    background-color: green;
+  }
+  66.6%{
+    transform: translate(100px,-0px);
+    background-color: yellow;
+  }
+  77.7%{
+    transform: translate(100px,0px);
+    background-color: yellow;
+  }
+  88.8%{
+    transform: translate(0px,0px);
+    background-color: blue;
+  }
+  100%{
+    transform: translate(0px,0px);
+    background-color: blue;
+  }
+}
+h1{
+  position: relative;
+  top: 110%;
+  left: 0;
+  font-size: 50px;
+  color: #e5e5e5;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+
